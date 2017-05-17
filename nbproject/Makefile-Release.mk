@@ -35,6 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Grid_Challenge.o \
+	${OBJECTDIR}/KnightL_on_a_Chessboard.o \
+	${OBJECTDIR}/Roads_and_Libraries.o \
+	${OBJECTDIR}/Super_Reduced_String.o \
+	${OBJECTDIR}/The_Story_of_a_Tree.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,6 +66,31 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hackerrank.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hackerrank ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Grid_Challenge.o: Grid_Challenge.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Grid_Challenge.o Grid_Challenge.cpp
+
+${OBJECTDIR}/KnightL_on_a_Chessboard.o: KnightL_on_a_Chessboard.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/KnightL_on_a_Chessboard.o KnightL_on_a_Chessboard.cpp
+
+${OBJECTDIR}/Roads_and_Libraries.o: Roads_and_Libraries.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Roads_and_Libraries.o Roads_and_Libraries.cpp
+
+${OBJECTDIR}/Super_Reduced_String.o: Super_Reduced_String.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Super_Reduced_String.o Super_Reduced_String.cpp
+
+${OBJECTDIR}/The_Story_of_a_Tree.o: The_Story_of_a_Tree.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/The_Story_of_a_Tree.o The_Story_of_a_Tree.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}

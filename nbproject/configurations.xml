@@ -8,6 +8,11 @@
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
+      <itemPath>Grid_Challenge.cpp</itemPath>
+      <itemPath>KnightL_on_a_Chessboard.cpp</itemPath>
+      <itemPath>Roads_and_Libraries.cpp</itemPath>
+      <itemPath>Super_Reduced_String.cpp</itemPath>
+      <itemPath>The_Story_of_a_Tree.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -39,6 +44,16 @@
           <standard>8</standard>
         </ccTool>
       </compileType>
+      <item path="Grid_Challenge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KnightL_on_a_Chessboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Roads_and_Libraries.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Super_Reduced_String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="The_Story_of_a_Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -63,6 +78,16 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Grid_Challenge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KnightL_on_a_Chessboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Roads_and_Libraries.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Super_Reduced_String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="The_Story_of_a_Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
