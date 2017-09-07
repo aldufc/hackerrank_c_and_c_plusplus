@@ -13,6 +13,9 @@
       <itemPath>Roads_and_Libraries.cpp</itemPath>
       <itemPath>Super_Reduced_String.cpp</itemPath>
       <itemPath>The_Story_of_a_Tree.cpp</itemPath>
+      <itemPath>URI_CHEFE_1469.cpp</itemPath>
+      <itemPath>URI_REDUZINDO_DETALHES_EM_UM_MAPA_2404.cpp</itemPath>
+      <itemPath>URI_TODOS_OS_DISCOS_CONSIDERADOS.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -54,6 +57,18 @@
       </item>
       <item path="The_Story_of_a_Tree.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="URI_CHEFE_1469.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="URI_REDUZINDO_DETALHES_EM_UM_MAPA_2404.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="URI_TODOS_OS_DISCOS_CONSIDERADOS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -87,6 +102,18 @@
       <item path="Super_Reduced_String.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="The_Story_of_a_Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="URI_CHEFE_1469.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="URI_REDUZINDO_DETALHES_EM_UM_MAPA_2404.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="URI_TODOS_OS_DISCOS_CONSIDERADOS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
